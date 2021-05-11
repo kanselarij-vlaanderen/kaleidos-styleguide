@@ -21,8 +21,8 @@ You will need the following things properly installed on your computer.
 ## Running / Development
 
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+* Visit your app at [http://localhost:3100](http://localhost:3100).
+* Visit your tests at [http://localhost:3100/tests](http://localhost:3100/tests).
 
 ### Code Generators
 
