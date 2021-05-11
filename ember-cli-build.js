@@ -3,8 +3,8 @@
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 const Funnel = require('broccoli-funnel');
 
-module.exports = function (defaults) {
-  let app = new EmberApp(defaults, {
+module.exports = function(defaults) {
+  const app = new EmberApp(defaults, {
     autoprefixer: {
       enabled: true,
       cascade: true,
@@ -23,11 +23,11 @@ module.exports = function (defaults) {
 
   const iconFiles = new Funnel('node_modules/@kanselarij-vlaanderen/au-kaleidos-icons/iconfont', {
     include: ['**/*.ttf', '**/*.woff', '**/*.woff2'],
-    destDir: '/assets'
+    destDir: '/assets',
   });
 
   const fontFiles = new Funnel('node_modules/@kanselarij-vlaanderen/au-kaleidos-css/fonts', {
-    destDir: '/assets/fonts'
+    destDir: '/assets/fonts',
   });
 
   return app.toTree([iconFiles, fontFiles]);

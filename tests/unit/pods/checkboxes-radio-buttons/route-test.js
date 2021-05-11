@@ -1,11 +1,13 @@
-import { module, test } from 'qunit';
+import {
+  module, test
+} from 'qunit';
 import { setupTest } from 'ember-qunit';
 
-module('Unit | Route | checkboxes-radio-buttons', function(hooks) {
+module('Unit | Route | checkboxes-radio-buttons', (hooks) => {
   setupTest(hooks);
 
   test('it exists', function(assert) {
-    let route = this.owner.lookup('route:checkboxes-radio-buttons');
+    const route = this.owner.lookup('route:checkboxes-radio-buttons');
     assert.ok(route);
   });
 });

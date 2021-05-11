@@ -32,7 +32,7 @@ module.exports = {
       {
         destructuring: 'any',
         ignoreReadBeforeAssign: false,
-      },
+      }
     ],
     'no-const-assign': ['error'],
     'no-var': 'error',
@@ -47,7 +47,7 @@ module.exports = {
       'single',
       {
         avoidEscape: true,
-      },
+      }
     ],
     'prefer-template': 'error',
     'template-curly-spacing': ['error', 'never'],
@@ -58,7 +58,7 @@ module.exports = {
       'expression',
       {
         allowArrowFunctions: true,
-      },
+      }
     ],
     'wrap-iife': 'error',
     'no-loop-func': 'error',
@@ -70,7 +70,7 @@ module.exports = {
         functions: 'always',
         keywords: 'always',
         classes: 'always',
-      },
+      }
     ],
     'no-param-reassign': 'warn',
     'prefer-spread': 'error',
@@ -81,7 +81,7 @@ module.exports = {
       {
         before: true,
         after: true,
-      },
+      }
     ],
     'arrow-parens': ['error', 'always'],
     'arrow-body-style': ['error', 'as-needed'],
@@ -89,7 +89,7 @@ module.exports = {
       'error',
       {
         allowParens: true,
-      },
+      }
     ],
     'implicit-arrow-linebreak': ['error', 'beside'],
     'no-useless-constructor': 'error',
@@ -98,7 +98,7 @@ module.exports = {
       'error',
       {
         includeExports: true,
-      },
+      }
     ],
     'object-curly-newline': [
       'error',
@@ -119,7 +119,7 @@ module.exports = {
           multiline: true,
           minProperties: 1,
         },
-      },
+      }
     ],
     'no-iterator': 'error',
     'no-restricted-syntax': 'error',
@@ -128,14 +128,14 @@ module.exports = {
       'error',
       {
         allowKeywords: true,
-      },
+      }
     ],
     'no-restricted-properties': 'error',
     'no-undef': [
       'error',
       {
         typeof: true,
-      },
+      }
     ],
     'one-var': ['error', 'never'],
     'no-multi-assign': 'error',
@@ -147,7 +147,7 @@ module.exports = {
         args: 'all',
         ignoreRestSiblings: false,
         caughtErrors: 'all',
-      },
+      }
     ],
     eqeqeq: ['error', 'always'],
     'no-case-declarations': 'error',
@@ -164,14 +164,14 @@ module.exports = {
       2,
       {
         SwitchCase: 1,
-      },
+      }
     ],
     'keyword-spacing': [
       'error',
       {
         before: true,
         after: true,
-      },
+      }
     ],
     'space-infix-ops': 'error',
     'eol-last': ['error'],
@@ -179,7 +179,7 @@ module.exports = {
       'error',
       {
         ignoreChainWithDepth: 2,
-      },
+      }
     ],
     'no-whitespace-before-property': 'error',
     'padded-blocks': ['error', 'never'],
@@ -193,7 +193,7 @@ module.exports = {
       {
         before: false,
         after: true,
-      },
+      }
     ],
     'computed-property-spacing': ['error', 'never'],
     'func-call-spacing': ['error', 'never'],
@@ -203,7 +203,7 @@ module.exports = {
         beforeColon: false,
         afterColon: true,
         mode: 'strict',
-      },
+      }
     ],
     'no-trailing-spaces': 'error',
     'comma-style': ['error', 'last'],
@@ -215,7 +215,7 @@ module.exports = {
         imports: 'never',
         exports: 'never',
         functions: 'never',
-      },
+      }
     ],
     semi: ['error', 'always'],
     'no-new-wrappers': 'error',
@@ -225,20 +225,20 @@ module.exports = {
       {
         min: 2,
         properties: 'always',
-      },
+      }
     ],
     camelcase: [
       'error',
       {
         properties: 'always',
         allow: [],
-      },
+      }
     ],
     'new-cap': [
       'warn',
       {
         capIsNewExceptions: ['A'],
-      },
+      }
     ],
     'no-restricted-globals': ['error'],
   },
@@ -252,7 +252,7 @@ module.exports = {
         'blueprints/*/index.js',
         'config/**/*.js',
         'lib/*/index.js',
-        'server/**/*.js',
+        'server/**/*.js'
       ],
       parserOptions: {
         sourceType: 'script',
@@ -261,6 +261,6 @@ module.exports = {
         browser: false,
         node: true,
       },
-    },
+    }
   ],
 };

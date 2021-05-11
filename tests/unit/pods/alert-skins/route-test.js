@@ -1,11 +1,13 @@
-import { module, test } from 'qunit';
+import {
+  module, test
+} from 'qunit';
 import { setupTest } from 'ember-qunit';
 
-module('Unit | Route | alert-skins', function(hooks) {
+module('Unit | Route | alert-skins', (hooks) => {
   setupTest(hooks);
 
   test('it exists', function(assert) {
-    let route = this.owner.lookup('route:alert-skins');
+    const route = this.owner.lookup('route:alert-skins');
     assert.ok(route);
   });
 });

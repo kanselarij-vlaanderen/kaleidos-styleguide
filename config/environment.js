@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = function (environment) {
-  let ENV = {
+module.exports = function(environment) {
+  const ENV = {
     modulePrefix: 'kaleidos-styleguide',
     podModulePrefix: 'kaleidos-styleguide/pods',
     environment,

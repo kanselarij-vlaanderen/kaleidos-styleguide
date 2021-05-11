@@ -1,11 +1,13 @@
-import { module, test } from 'qunit';
+import {
+  module, test
+} from 'qunit';
 import { setupTest } from 'ember-qunit';
 
-module('Unit | Route | upload', function(hooks) {
+module('Unit | Route | upload', (hooks) => {
   setupTest(hooks);
 
   test('it exists', function(assert) {
-    let route = this.owner.lookup('route:upload');
+    const route = this.owner.lookup('route:upload');
     assert.ok(route);
   });
 });
