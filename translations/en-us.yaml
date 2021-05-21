@@ -37,3 +37,6 @@ style-guide-kaleidos-specific-components: Kaleidos specific Components
 style-guide-agenda-side-nav: Agenda side nav
 style-guide-procedure-steps: Procedure steps
 style-guide-document-list: Document list
+add-attachment: Document opladen
+cancel: Annuleren
+dropzone-text: Sleep je bestand naar hier of klik hier om een bestand te selecteren.
