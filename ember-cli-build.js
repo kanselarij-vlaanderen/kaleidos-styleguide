@@ -17,6 +17,9 @@ module.exports = function(defaults) {
         'node_modules/@kanselarij-vlaanderen/au-kaleidos-css/'
       ],
     },
+    'ember-prism': {
+      components: ['markup', 'markup-templating', 'handlebars'],
+    },
   });
 
   app.import('node_modules/@kanselarij-vlaanderen/au-kaleidos-icons/iconfont/icons.css');
