@@ -47,6 +47,6 @@ You will need the following things properly installed on your computer.
 
 ## FAQ
 
-### When deploying a `gh-pages exited with nonzero status` is returned
+**Question:** When deploying a 'gh-pages exited with nonzero status' is returned.
 
-Set the upstream 'gh-pages' branch as followed: `git branch --set-upstream-to=origin/gh-pages gh-pages`.
+**Answer:** Set the upstream 'gh-pages' branch as followed: `git branch --set-upstream-to=origin/gh-pages gh-pages`.
