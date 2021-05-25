@@ -21,12 +21,8 @@ You will need the following things properly installed on your computer.
 ## Running / Development
 
 * `ember serve`
-* Visit your app at [http://localhost:3100](http://localhost:3100).
+* Visit the styleguide at [http://localhost:3100](http://localhost:3100).
 * Visit your tests at [http://localhost:3100/tests](http://localhost:3100/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
 
 ### Running Tests
 
@@ -44,14 +40,13 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+## Deploying
 
-Specify what it takes to deploy your app.
+* `ember deploy production`
+* Visit the styleguide at [https://kanselarij-vlaanderen.github.io/kaleidos-styleguide](https://kanselarij-vlaanderen.github.io/kaleidos-styleguide/) (emptying your browser cache & doing a hard reload can be needed in order to view deployed changes).
 
-## Further Reading / Useful Links
+## FAQ
 
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+**Question:** When deploying a 'gh-pages exited with nonzero status' is returned.
+
+**Answer:** Set the upstream 'gh-pages' branch as followed: `git branch --set-upstream-to=origin/gh-pages gh-pages`.
