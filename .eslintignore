@@ -20,4 +20,7 @@
 /bower.json.ember-try
 /package.json.ember-try
 
+# storybook
+/.storybook/
+
 /testem.js
