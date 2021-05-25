@@ -43,10 +43,10 @@ You will need the following things properly installed on your computer.
 ## Deploying
 
 * `ember deploy production`
-* Visit the styleguide at [https://kanselarij-vlaanderen.github.io/kaleidos-styleguide](https://kanselarij-vlaanderen.github.io/kaleidos-styleguide/) (emptying your browser cache & doing a hard reload can be needed in order to view deployed changes).
+* Visit the styleguide at [https://kanselarij-vlaanderen.github.io/kaleidos-styleguide](https://kanselarij-vlaanderen.github.io/kaleidos-styleguide/) (emptying your browser cache & doing a hard reload may be needed in order to view deployed changes).
 
 ## FAQ
 
-**Question:** When deploying a 'gh-pages exited with nonzero status' is returned.
+### When deploying a `gh-pages exited with nonzero status` is returned
 
-**Answer:** Set the upstream 'gh-pages' branch as followed: `git branch --set-upstream-to=origin/gh-pages gh-pages`.
+Set the upstream 'gh-pages' branch as followed: `git branch --set-upstream-to=origin/gh-pages gh-pages`.
