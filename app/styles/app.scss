@@ -1,6 +1,8 @@
 // sourced from 'au-kaleidos-css' npm package
 @import 'auk-base';
+@import 'g-font'; // explicitly import fonts here (temporarily removed from auk-base) // TODO: remove when fonts are re-added in package
 @import 'auk-components';
+
 
 // Styleguide
 @import 'styleguide/_br-prototype-wrapper';
